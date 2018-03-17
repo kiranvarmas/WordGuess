@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnit Jupiter" tests="21" skipped="0" failures="0" errors="0" time="1.325" hostname="DESKTOP-VML0FAR" timestamp="2018-03-09T01:13:08">
+<properties>
+<property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+<property name="file.encoding" value="windows-1252"/>
+<property name="file.encoding.pkg" value="sun.io"/>
+<property name="file.separator" value="\"/>
+<property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+<property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+<property name="java.class.path" value="C:\kv\svn\assign2\build\classes\java\test;C:\kv\svn\assign2\build\resources\test;C:\kv\svn\assign2\build\classes\java\main;C:\kv\svn\assign2\build\resources\main;C:\Users\kiran\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-engine\5.0.3\52fcc461185c48178608f687e962de6484dfb69e\junit-jupiter-engine-5.0.3.jar;C:\Users\kiran\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-api\5.0.3\43872be66bab0172073ac698062419755e563353\junit-jupiter-api-5.0.3.jar;C:\Users\kiran\.gradle\caches\modules-2\files-2.1\org.mockito\mockito-core\1.10.19\e8546f5bef4e061d8dd73895b4e8f40e3fe6effe\mockito-core-1.10.19.jar;C:\Users\kiran\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-engine\1.0.3\7028a17adabd876b6d7530e43523a7f4fd109e18\junit-platform-engine-1.0.3.jar;C:\Users\kiran\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-commons\1.0.3\3663f3ddfe47df2a7bf363d5c0196f0c7a09820f\junit-platform-commons-1.0.3.jar;C:\Users\kiran\.gradle\caches\modules-2\files-2.1\org.apiguardian\apiguardian-api\1.0.0\3ef5276905e36f4d8055fe3cb0bdcc7503ffc85d\apiguardian-api-1.0.0.jar;C:\Users\kiran\.gradle\caches\modules-2\files-2.1\org.opentest4j\opentest4j\1.0.0\6f09c598e9ff64bf0ce2fa7e7de49a99ba83c0b4\opentest4j-1.0.0.jar;C:\Users\kiran\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.1\860340562250678d1a344907ac75754e259cdb14\hamcrest-core-1.1.jar;C:\Users\kiran\.gradle\caches\modules-2\files-2.1\org.objenesis\objenesis\2.1\87c0ea803b69252868d09308b4618f766f135a96\objenesis-2.1.jar;C:\Users\kiran\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-console\1.0.0\2931079616796bc4537f7e3c236f8fdfe7e51237\junit-platform-console-1.0.0.jar;C:\Users\kiran\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-launcher\1.0.0\5602a195a442636276efefce2a4c7b418cd67e5c\junit-platform-launcher-1.0.0.jar;C:\Users\kiran\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-engine\1.0.0\fdc6f63a689b894529ea5e9e218b65422748fd\junit-platform-engine-1.0.0.jar;C:\Users\kiran\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-commons\1.0.0\d2e03d9b21020746d48fe45834ff7d71fbcbd7b2\junit-platform-commons-1.0.0.jar"/>
+<property name="java.class.version" value="53.0"/>
+<property name="java.home" value="C:\Program Files\Java\jdk-9.0.4"/>
+<property name="java.io.tmpdir" value="C:\Users\kiran\AppData\Local\Temp\"/>
+<property name="java.library.path" value="C:\Program Files\Java\jdk-9.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Users\kiran\AppData\Local\Microsoft\WindowsApps;;."/>
+<property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+<property name="java.runtime.version" value="9.0.4+11"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="9"/>
+<property name="java.vendor" value="Oracle Corporation"/>
+<property name="java.vendor.url" value="http://java.oracle.com/"/>
+<property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+<property name="java.version" value="9.0.4"/>
+<property name="java.vm.compressedOopsMode" value="32-bit"/>
+<property name="java.vm.info" value="mixed mode"/>
+<property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="9"/>
+<property name="java.vm.vendor" value="Oracle Corporation"/>
+<property name="java.vm.version" value="9.0.4+11"/>
+<property name="jdk.debug" value="release"/>
+<property name="line.separator" value="
+"/>
+<property name="os.arch" value="amd64"/>
+<property name="os.name" value="Windows 10"/>
+<property name="os.version" value="10.0"/>
+<property name="path.separator" value=";"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9.0.4\bin"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.cpu.isalist" value="amd64"/>
+<property name="sun.desktop" value="windows"/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="sun.java.command" value="org.junit.platform.console.ConsoleLauncher --details NONE --scan-class-path C:\kv\svn\assign2\build\classes\java\main;C:\kv\svn\assign2\build\resources\main;C:\kv\svn\assign2\build\classes\java\test;C:\kv\svn\assign2\build\resources\test -n ^.*Tests?$ --reports-dir C:\kv\svn\assign2\build\test-results\junit-platform"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="Cp1252"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="sun.os.patch.level" value=""/>
+<property name="user.country" value="US"/>
+<property name="user.dir" value="C:\kv\svn\assign2"/>
+<property name="user.home" value="C:\Users\kiran"/>
+<property name="user.language" value="en"/>
+<property name="user.name" value="kiran"/>
+<property name="user.script" value=""/>
+<property name="user.timezone" value="America/Chicago"/>
+<property name="user.variant" value=""/>
+</properties>
+<testcase name="checkIfWordIsInValid()" classname="game.SpellCheckServiceTest" time="0.261">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.SpellCheckServiceTest]/[method:checkIfWordIsInValid()]
+display-name: checkIfWordIsInValid()
+]]></system-out>
+</testcase>
+<testcase name="canary()" classname="game.SpellCheckServiceTest" time="0.006">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.SpellCheckServiceTest]/[method:canary()]
+display-name: canary()
+]]></system-out>
+</testcase>
+<testcase name="checkIfWordIsValid()" classname="game.SpellCheckServiceTest" time="0.029">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.SpellCheckServiceTest]/[method:checkIfWordIsValid()]
+display-name: checkIfWordIsValid()
+]]></system-out>
+</testcase>
+<testcase name="checkForNetworkFailureWithAStub()" classname="game.SpellCheckServiceTest" time="0.834">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.SpellCheckServiceTest]/[method:checkForNetworkFailureWithAStub()]
+display-name: checkForNetworkFailureWithAStub()
+]]></system-out>
+</testcase>
+<testcase name="ScoreWhenUserGuessMatch()" classname="game.WordguessTest" time="0.042">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.WordguessTest]/[method:ScoreWhenUserGuessMatch()]
+display-name: ScoreWhenUserGuessMatch()
+]]></system-out>
+</testcase>
+<testcase name="canary()" classname="game.WordguessTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.WordguessTest]/[method:canary()]
+display-name: canary()
+]]></system-out>
+</testcase>
+<testcase name="ScoreWhenUserGuessOneConsonantCorrect()" classname="game.WordguessTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.WordguessTest]/[method:ScoreWhenUserGuessOneConsonantCorrect()]
+display-name: ScoreWhenUserGuessOneConsonantCorrect()
+]]></system-out>
+</testcase>
+<testcase name="isScrambledWordDifferentForTheDifferentSeed()" classname="game.WordguessTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.WordguessTest]/[method:isScrambledWordDifferentForTheDifferentSeed()]
+display-name: isScrambledWordDifferentForTheDifferentSeed()
+]]></system-out>
+</testcase>
+<testcase name="isRandomWordChosenForDifferentSeedsAreDifferent()" classname="game.WordguessTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.WordguessTest]/[method:isRandomWordChosenForDifferentSeedsAreDifferent()]
+display-name: isRandomWordChosenForDifferentSeedsAreDifferent()
+]]></system-out>
+</testcase>
+<testcase name="isScrambledWordSameForTheSameSeed()" classname="game.WordguessTest" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.WordguessTest]/[method:isScrambledWordSameForTheSameSeed()]
+display-name: isScrambledWordSameForTheSameSeed()
+]]></system-out>
+</testcase>
+<testcase name="ScoreWhenUserGuessIsValidWordButInvalidLetter()" classname="game.WordguessTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.WordguessTest]/[method:ScoreWhenUserGuessIsValidWordButInvalidLetter()]
+display-name: ScoreWhenUserGuessIsValidWordButInvalidLetter()
+]]></system-out>
+</testcase>
+<testcase name="scoreWhenUserGuessIsSpeltWrong()" classname="game.WordguessTest" time="0.004">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.WordguessTest]/[method:scoreWhenUserGuessIsSpeltWrong()]
+display-name: scoreWhenUserGuessIsSpeltWrong()
+]]></system-out>
+</testcase>
+<testcase name="scoreWhenANonDuplicateLetterInGuessIsDuplicated()" classname="game.WordguessTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.WordguessTest]/[method:scoreWhenANonDuplicateLetterInGuessIsDuplicated()]
+display-name: scoreWhenANonDuplicateLetterInGuessIsDuplicated()
+]]></system-out>
+</testcase>
+<testcase name="isRandomWordChosenSameForSameSeed()" classname="game.WordguessTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.WordguessTest]/[method:isRandomWordChosenSameForSameSeed()]
+display-name: isRandomWordChosenSameForSameSeed()
+]]></system-out>
+</testcase>
+<testcase name="scoreWhenTheNetworkFails()" classname="game.WordguessTest" time="0.004">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.WordguessTest]/[method:scoreWhenTheNetworkFails()]
+display-name: scoreWhenTheNetworkFails()
+]]></system-out>
+</testcase>
+<testcase name="isScrambledWordEqualsOriginalWord()" classname="game.WordguessTest" time="0.008">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.WordguessTest]/[method:isScrambledWordEqualsOriginalWord()]
+display-name: isScrambledWordEqualsOriginalWord()
+]]></system-out>
+</testcase>
+<testcase name="ScoreWhenUserGuessIsValidWord()" classname="game.WordguessTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.WordguessTest]/[method:ScoreWhenUserGuessIsValidWord()]
+display-name: ScoreWhenUserGuessIsValidWord()
+]]></system-out>
+</testcase>
+<testcase name="isWordTrulyScrambled()" classname="game.WordguessTest" time="0.007">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.WordguessTest]/[method:isWordTrulyScrambled()]
+display-name: isWordTrulyScrambled()
+]]></system-out>
+</testcase>
+<testcase name="isLengthOfScrambledWordEqualsChosenWord()" classname="game.WordguessTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.WordguessTest]/[method:isLengthOfScrambledWordEqualsChosenWord()]
+display-name: isLengthOfScrambledWordEqualsChosenWord()
+]]></system-out>
+</testcase>
+<testcase name="ScoreWhenUserGuessOneVowelCorrect()" classname="game.WordguessTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.WordguessTest]/[method:ScoreWhenUserGuessOneVowelCorrect()]
+display-name: ScoreWhenUserGuessOneVowelCorrect()
+]]></system-out>
+</testcase>
+<testcase name="isRandomWordPartOfWordList()" classname="game.WordguessTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.WordguessTest]/[method:isRandomWordPartOfWordList()]
+display-name: isRandomWordPartOfWordList()
+]]></system-out>
+</testcase>
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]
+display-name: JUnit Jupiter
+]]></system-out>
+</testsuite>
