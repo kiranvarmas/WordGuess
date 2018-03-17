@@ -1,0 +1,59 @@
+Assign1: Due 11:59PM February 23
+
+***Your chance of success greatly increases if you start very early. Your chance of failure increases if you start late.
+
+Take small steps, ask for frequent reviews, make use of the daily reviews. You don't have to do anything big or special for review. Whatever you are able to do in a day, ask for that to be reviewed.
+
+Using Test First Development (no code without test first) implement the problem you designed in hw2. Feel free to evolve that design and use your judgment to make changes based on the improved understanding and learning.
+
+First start with a tests list and a canary test. 
+
+After completing the assignment (and only after) answer the following questions:
+
+1. What did you learn mainly in this assignment?
+
+We learned the purpose and significant of writing the test cases. We learned how to write test cases and why we need many test cases to guarantee the function is working correctly in the design.
+We learned even though we have good plan to create a design, it still needs to a lot of changes while implementing it.
+We learned that the design could be evolved after refactor the variable names or method names. We have learned names are one of the most important thing in the design
+We learned the spacing and indention is necessary to write the code.
+We learned the importance of reviews and importance of having a good reviewer.
+We learned work together is more productive than work alone.
+We learned code could always be improved to be more efficient. 
+We learned we need to write test cases before implementing functions.
+We learned writing behavior function at the beginning of the design is very efficient way. 
+We learned different kinds of functions have different kinds of test cases.
+We learned creating as less as objects in design is very important.
+We learned using enum to set up the states is very good choice.
+
+
+
+2. How is your current design different, if at all, from the strategic design created in hw2?
+
+Our current design is very different than what we created in the UML (hw2).  
+
+We only have two functions such as guess function and generateRandomColors function which in our previous strategic design, we have a lot of functions to deal with different tasks. During the initial design we emphasised more on state of the game. Where as now it makes sense to emphasise more on the functionalities.
+
+
+3. Were there any surprises or things you did not expect along the way? Any 
+particular problem faced, things you had to tackle that you did not expect 
+beforehand?
+Yes. 
+When we tried to write guess function, we don't create enum to set up our game status state. Instead, we used boolean such as winIndicator to toggle, which makes our code harder to read and understand. After using enum to set the game status, the logic of the codes look very clear. 
+
+Instead of using enum to check whether the color, color position is match or not, we used some int variables at the beginning of the design. We did not expect to use Map<Response, Integer> to check. After the review, it turns out to be this Map data structure saves us a lot of time and because the enum of Response could save the number of match, positional match, no match values and State simultaneously. It is very helpful for the later design.  
+
+When we implemented generatedRandomColor function in our logic which spent us a lot of time. And finally, we figured out that in the java library we could simply apply Collections.shuffle() to generate the random colors.
+ 
+Total [100]: 98 
+Program runs [10]:
+
+Game works as expected [10]: -2
+When user give up, display the solution.
+
+All tests pass [20]:
+Test quality [15]:
+Test for randomness [5]:
+Code coverage [10]:
+Code quality [10]:
+Design quality [10]:
+Response to questions [10]:
